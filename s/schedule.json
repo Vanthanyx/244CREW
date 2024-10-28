@@ -3,7 +3,7 @@
     {
       "name": "DRAPER, BROOKS",
       "associate_number": "201449",
-      "associate_level": "L5",
+      "associate_level": "",
       "shifts": {
         "Monday": "9:00 AM - 5:00 PM",
         "Tuesday": "9:00 AM - 5:00 PM",
@@ -233,242 +233,290 @@
     {
       "name": "JENKINS, LOGAN",
       "associate_number": "205083",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "RIO, CANDIN",
       "associate_number": "205406",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "SORIANO, ANTHONY",
       "associate_number": "205645",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "HARLEY III, THOMAS",
       "associate_number": "205700",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "TEO, OTOLOSE",
       "associate_number": "205940",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "SHORT, HAYLEE",
       "associate_number": "206004",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "SEARLE, WILLIAM",
       "associate_number": "206057",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "LOPEZ, JERSHON",
       "associate_number": "206136",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "MYERS, COLE",
       "associate_number": "206178",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "GUYMON, KATHRYN",
       "associate_number": "207037",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "MAJERS, EMILIA",
       "associate_number": "207127",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "BEEBE, ASHLYN",
       "associate_number": "208689",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "HERNANDEZ, JOSHUA",
       "associate_number": "209023",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "HINOJOSA, VALERIE",
       "associate_number": "209377",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "COOK, ELIJAH",
       "associate_number": "210394",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "PIERCE, ELIZA",
       "associate_number": "211378",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "KAY, RYLAN",
       "associate_number": "211962",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "KEMP, LARS",
       "associate_number": "212257",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "PAULSEN, MAX",
       "associate_number": "212292",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ROLLER, LANDON",
       "associate_number": "214088",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "BODINE, WELLS",
       "associate_number": "214371",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "MOODY, NATHAN",
       "associate_number": "215232",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ARSENAULT, KAYLEE",
       "associate_number": "216495",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "AVERETT, SIMON",
       "associate_number": "217119",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "JOHNSON, ELLE",
       "associate_number": "217126",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "MOCK, JOSEPH",
       "associate_number": "217167",
-      "associate_level": "L4"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "MORRIS, RAYGAN",
       "associate_number": "217874",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "FERGUSON, LUKE",
       "associate_number": "218544",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "BETTS, RACHEL",
       "associate_number": "218631",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "RINDLISBACHER, AMARA",
       "associate_number": "218846",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "BRANDON, HEZEKIAH",
       "associate_number": "219496",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ERICKSON, BELLA",
       "associate_number": "219690",
-      "associate_level": "L3"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "QUISPE, JULIAN",
       "associate_number": "221424",
-      "associate_level": ""
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ROTHAS, BRAYDEN",
       "associate_number": "221481",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ALDRIDGE, KIMBERLY",
       "associate_number": "221572",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "VARGAS, RILEY",
       "associate_number": "221826",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ANDERSON, IRELAND",
       "associate_number": "222084",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ZUNIGA, BAYLEE",
       "associate_number": "222879",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "HEUGLY, HUNTER",
       "associate_number": "224845",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "ANDRUS, MILLIE",
       "associate_number": "225017",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "SANDERS, SAYLOR",
       "associate_number": "",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "BRIGANTI, MIRIAM",
       "associate_number": "225804",
-      "associate_level": "L2"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "VILLOTA, JACKY",
       "associate_number": "227944",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "GIRON, DRAKE",
       "associate_number": "228042",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "PEARSON, BROCK",
       "associate_number": "228590",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "AGUILAR, NAYRETH",
       "associate_number": "228927",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "FOX, JESSICA",
       "associate_number": "229236",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     },
     {
       "name": "LOHANI, AASHRAY",
       "associate_number": "229545",
-      "associate_level": "L1"
+      "associate_level": "",
+      "shifts": {}
     }
   ]
 }
