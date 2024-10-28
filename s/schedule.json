@@ -1,0 +1,56 @@
+{
+  "schedule": [
+    {
+      "name": "Brooks Draper",
+      "associate_number": "201449",
+      "shifts": {
+        "Monday": "9:00 AM - 5:00 PM",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "Off",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 5:00 PM",
+        "Saturday": "Off",
+        "Sunday": "Off"
+      }
+    },
+    {
+      "name": "Jordan Smith",
+      "associate_number": "201450",
+      "shifts": {
+        "Monday": "10:00 AM - 6:00 PM",
+        "Tuesday": "Off",
+        "Wednesday": "10:00 AM - 6:00 PM",
+        "Thursday": "10:00 AM - 6:00 PM",
+        "Friday": "Off",
+        "Saturday": "10:00 AM - 6:00 PM",
+        "Sunday": "Off"
+      }
+    },
+    {
+      "name": "Taylor Johnson",
+      "associate_number": "201451",
+      "shifts": {
+        "Monday": "Off",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 5:00 PM",
+        "Thursday": "Off",
+        "Friday": "9:00 AM - 5:00 PM",
+        "Saturday": "9:00 AM - 5:00 PM",
+        "Sunday": "Off"
+      }
+    },
+    {
+      "name": "Morgan Lee",
+      "associate_number": "201452",
+      "shifts": {
+        "Monday": "8:00 AM - 4:00 PM",
+        "Tuesday": "8:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 4:00 PM",
+        "Thursday": "Off",
+        "Friday": "Off",
+        "Saturday": "8:00 AM - 4:00 PM",
+        "Sunday": "8:00 AM - 4:00 PM"
+      }
+    }
+  ]
+}

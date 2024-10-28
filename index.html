@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>244 Crew</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-box">
+        <h1>244 Crew</h1>
+        <form>
+          <div class="textbox">
+            <input
+              type="text"
+              placeholder="Assosiate Number"
+              name="AssosiateNumber"
+              required
+            />
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const assosiateNumber = formData.get("AssosiateNumber");
+        if (assosiateNumber === "201449") {
+          window.location.href = "./s/index.html";
+        } else {
+          alert("Invalid Assosiate Number");
+        }
+      });
+    </script>
+  </body>
+</html>
