@@ -9,7 +9,8 @@
   <body>
     <div class="login-container">
       <div class="login-box">
-        <h1>244 Crew</h1>
+        <img class="logo" src="./assets/INO.png" />
+        <h1>244 ShiftCrew</h1>
         <form>
           <div class="textbox">
             <input
@@ -18,21 +19,34 @@
               name="AssosiateNumber"
               required
             />
+            <button type="submit" class="btn">Login</button>
           </div>
-          <button type="submit" class="btn">Login</button>
         </form>
       </div>
     </div>
     <script>
-      const form = document.querySelector("form");
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        const assosiateNumber = formData.get("AssosiateNumber");
-        if (assosiateNumber === "201449") {
+      fetch(
+        "https://raw.githubusercontent.com/Vanthanyx/244CREW/refs/heads/main/s/schedule.json"
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+
+          const associateNumbers = data.schedule.map(
+            (entry) => entry.associate_number
+          );
+          sessionStorage.setItem("ASCNUM", associateNumbers);
+        })
+        .catch((error) => console.error("Error fetching the schedule:", error));
+
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        const associateNumber = event.target.AssosiateNumber.value;
+        const associateNumbers = sessionStorage.getItem("ASCNUM").split(",");
+        if (associateNumbers.includes(associateNumber)) {
           window.location.href = "./s/index.html";
         } else {
-          alert("Invalid Assosiate Number");
+          alert("Invalid Associate Number");
         }
       });
     </script>
