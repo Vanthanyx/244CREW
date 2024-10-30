@@ -54,11 +54,19 @@
           data.schedule.forEach((associate) => {
             const row = tableBody.insertRow();
             const cell = row.insertCell(0);
-            cell.innerHTML = `<strong>${associate.associate_number}</strong> ${associate.name}\n${associate.associate_level}`;
+            cell.innerHTML = `${associate.associate_level}&nbsp;${associate.name}`;
 
             days.forEach((day, index) => {
+              const shiftTime = associate.shifts[day];
               const cell = row.insertCell();
-              cell.textContent = associate.shifts[day];
+              cell.textContent = shiftTime;
+              cell.classList.add("cell-tooltip");
+              cell.setAttribute(
+                "data-tooltip",
+                `${associate.name}: ${shiftTime}`
+              );
+
+              // Highlight current day
               if (index === currentDayIndex) {
                 cell.classList.add("highlight");
               }
