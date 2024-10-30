@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat&display=swap");
+
+/* General Styles */
+
+html {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; /* Base font size for better readability */
+}
+
+th,
+tr {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #060606;
+  color: white;
+  margin: 0; /* Remove default margin for better control */
+  padding: 0; /* Remove default padding for better control */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2vw; /* Use relative units for better scaling */
+}
+
+th,
+td {
+  border: 2px solid #020202;
+  padding: 0.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Adjusted header background color for better contrast */
+th {
+  background-color: #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #222;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #111;
+}
+
+/* Logo Styles */
+.logo {
+  display: block; /* Make it block for better stacking on mobile */
+  margin: 0 auto;
+  width: 20vw; /* Increased width for better visibility */
+}
+
+.logo-text {
+  display: block; /* Stack logo text */
+  margin: 0 auto;
+  font-size: 2vw;
+}
+
+/* Highlight Styles */
+.highlight {
+  background-color: rgba(255, 229, 130, 0.5) !important;
+}
+
+.user-row {
+  background-color: rgba(219, 128, 128, 0.5) !important;
+}
+
+/* Tooltip Styles */
+.cell-tooltip {
+  position: relative;
+}
+
+.cell-tooltip:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 0.9em;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+/* Button Styles */
+#drop-btn,
+#req-btn,
+.submit-btn {
+  padding: 0.5em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  width: 100%; /* Make buttons full width on mobile */
+}
+
+#drop-btn {
+  background-color: #b60000;
+  color: white;
+}
+
+#req-btn {
+  background-color: #ffcb05;
+  color: black;
+}
+
+#drop-btn:hover,
+#req-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Miscellaneous Styles */
+.right-side {
+  float: right; /* Consider making this stack on mobile */
+}
+
+/* Dynamic Div Styles */
+.dynamic-div {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(17, 22, 78, 0.38);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 90%; /* Full width on mobile */
+  max-width: 30vw; /* Limit max width on larger screens */
+  height: auto; /* Allow height to adjust based on content */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto; /* Center align on mobile */
+  position: relative; /* Changed from fixed for better mobile behavior */
+  font-size: 2vw; /* Slightly larger font size for readability */
+  z-index: 9999;
+}
+
+.div-title {
+  position: absolute;
+  top: 10px;
+}
+
+.submit-btn {
+  position: relative; /* Adjusted position */
+  bottom: auto; /* Reset bottom for dynamic div */
+}
+
+/* Pulse Animation */
+.pulse-red {
+  animation: pulse-red 6s infinite;
+}
+
+@keyframes pulse-red {
+  0% {
+    background-color: #333;
+  }
+  50% {
+    background-color: #b60000;
+  }
+  100% {
+    background-color: #333;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  html {
+    font-size: 12px; /* Smaller font size for very small devices */
+  }
+
+  table {
+    font-size: 3vw; /* Larger font size for table on small devices */
+  }
+
+  .logo {
+    width: 40vw; /* Increase logo size on mobile */
+  }
+
+  .dynamic-div {
+    width: 90%; /* Ensure dynamic div is responsive */
+    height: auto; /* Allow height to adjust */
+  }
+}
