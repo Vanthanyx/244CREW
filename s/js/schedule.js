@@ -79,7 +79,7 @@ function saturdayMeeting() {
   const saturdayCell = document.getElementById("sat"); // Saturday is the 7th day, index 6
   if (saturdayCell) {
     saturdayCell.classList.add("pulse-red");
-    saturdayCell.innerHTML = "Saturday<br>[Meeting(Test)]";
+    saturdayCell.innerHTML = "Saturday<br>[Mandatory Meeting]";
   }
 }
-saturdayMeeting();
+//saturdayMeeting();

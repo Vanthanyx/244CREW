@@ -53,20 +53,20 @@
     <script src="./js/drop.js"></script>
     <script src="./js/request.js"></script>
     <script>
-      function applyStylesheet() {
-        if (window.innerWidth <= 800) {
-          document.write(
-            '<link rel="stylesheet" type="text/css" href="./css/mobile.css">'
-          );
-        } else {
-          document.write(
-            '<link rel="stylesheet" type="text/css" href="./css/web.css">'
-          );
-        }
+      if (window.innerWidth <= 800) {
+        document.write(
+          '<link rel="stylesheet" type="text/css" href="./css/mobile.css">'
+        );
+        JSAlert.alert(
+          "Mobile browser detected, use a desktop for the best results.",
+          "Mobile Access",
+          JSAlert.Icons.Warning
+        );
+      } else {
+        document.write(
+          '<link rel="stylesheet" type="text/css" href="./css/web.css">'
+        );
       }
-
-      applyStylesheet();
-      setInterval(applyStylesheet, 30000);
     </script>
   </body>
 </html>
