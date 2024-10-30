@@ -67,6 +67,15 @@
           '<link rel="stylesheet" type="text/css" href="./css/web.css">'
         );
       }
+
+      const USER = sessionStorage.getItem("USER");
+      if (!USER) {
+        document.body.style.filter = "blur(5px)";
+        alert("Please login to view the schedule.");
+        setTimeout(() => {
+          window.location.replace("https://244crew.com/");
+        }, 2500);
+      }
     </script>
   </body>
 </html>
