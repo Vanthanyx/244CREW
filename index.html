@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>244 Crew</title>
+    <meta property="og:title" content="In-N-Out 244 ShiftCrew" />
+    <meta property="og:image" content="https://244crew.com/assets/INO.png" />
+    <meta property="og:url" content="https://244crew.com/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="View the In-N-Out 244 crew schedule using your associate number."
+    />
+    <script src="https://unpkg.com/js-alert/dist/jsalert.min.js"></script>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'><text y='32' font-size='32'>🍔</text></svg>"
+    />
+    <title>INO 244 ShiftCrew</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -24,31 +37,6 @@
         </form>
       </div>
     </div>
-    <script>
-      fetch(
-        "https://raw.githubusercontent.com/Vanthanyx/244CREW/refs/heads/main/s/schedule.json"
-      )
-        .then((response) => response.json())
-        .then((data) => {
-          console.log(data);
-
-          const associateNumbers = data.schedule.map(
-            (entry) => entry.associate_number
-          );
-          sessionStorage.setItem("ASCNUM", associateNumbers);
-        })
-        .catch((error) => console.error("Error fetching the schedule:", error));
-
-      document.querySelector("form").addEventListener("submit", (event) => {
-        event.preventDefault();
-        const associateNumber = event.target.AssosiateNumber.value;
-        const associateNumbers = sessionStorage.getItem("ASCNUM").split(",");
-        if (associateNumbers.includes(associateNumber)) {
-          window.location.href = "./s/index.html";
-        } else {
-          alert("Invalid Associate Number");
-        }
-      });
-    </script>
+    <script src="login.js"></script>
   </body>
 </html>
