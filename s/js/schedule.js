@@ -83,3 +83,16 @@ function saturdayMeeting() {
   }
 }
 //saturdayMeeting();
+
+const dateTimeDiv = document.createElement("div");
+dateTimeDiv.id = "dateTime";
+dateTimeDiv.style.position = "fixed";
+dateTimeDiv.style.bottom = "10px";
+dateTimeDiv.style.right = "10px";
+dateTimeDiv.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+dateTimeDiv.style.color = "white";
+dateTimeDiv.style.padding = "5px";
+dateTimeDiv.style.borderRadius = "5px";
+dateTimeDiv.style.fontFamily = '"JetBrains Mono", monospace';
+dateTimeDiv.textContent = "Updated 10/29 11:48PM";
+document.body.appendChild(dateTimeDiv);
