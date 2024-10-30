@@ -1,0 +1,498 @@
+{
+  "schedule": [
+    {
+      "name": "DRAPER, BROOKS",
+      "associate_number": "201449",
+      "associate_level": "",
+      "shifts": {
+        "Monday": "9:00 AM - 5:00 PM",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "Off",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 5:00 PM",
+        "Saturday": "Off",
+        "Sunday": "Off"
+      }
+    },
+    {
+      "name": "CABACUNGAN, JERRET",
+      "associate_number": "79819",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "SORIANO, RENE",
+      "associate_number": "87716",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "NAVARRO, JOSELIN",
+      "associate_number": "87785",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "CARLSON, TIMOTHY",
+      "associate_number": "92168",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "KUNZLER, BRIAN",
+      "associate_number": "117875",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "KAWAI, ADDISON",
+      "associate_number": "120508",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "AGUILAR, MARIA",
+      "associate_number": "140923",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MARTIN, ANASTASIA",
+      "associate_number": "144185",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MAJERS, EDWARD",
+      "associate_number": "145460",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ROLLINSON, JOSHUA",
+      "associate_number": "147460",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "RIRIE, BLAKE",
+      "associate_number": "149331",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "QUINTANILLA, JONATHAN",
+      "associate_number": "154811",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "STEADMAN, JUSTICE",
+      "associate_number": "156551",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "HORTON, RYAN",
+      "associate_number": "157068",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "THOMPSON, SARIAH",
+      "associate_number": "157639",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "RIRIE, BRODY",
+      "associate_number": "159244",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ROBLETO, SAMANTHA",
+      "associate_number": "169888",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "LUJAN, ALYSSA",
+      "associate_number": "174299",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MCCLANAHAN, MYCHAELA",
+      "associate_number": "175432",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "PERRY, JACOB",
+      "associate_number": "176066",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "GUYMON, CAROLINE",
+      "associate_number": "176351",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BARLOW, MCKAI",
+      "associate_number": "178007",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "STANGER, COLE",
+      "associate_number": "183590",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BAIN, MATTHEW",
+      "associate_number": "187497",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "WHITELOCK, JESSIE",
+      "associate_number": "188042",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BUTTERFIELD, SETH",
+      "associate_number": "188424",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MARIN, JAVIER",
+      "associate_number": "188692",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "GARDNER, KAITLYN",
+      "associate_number": "192255",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "COLLEDGE, LUCAS",
+      "associate_number": "192979",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "PALACIOS, ELISA",
+      "associate_number": "194220",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "AHONEN, JETT",
+      "associate_number": "194625",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ROLLINSON, SAVANNAH",
+      "associate_number": "195712",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "JENKINS, LOGAN",
+      "associate_number": "205083",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "RIO, CANDIN",
+      "associate_number": "205406",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "SORIANO, ANTHONY",
+      "associate_number": "205645",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "HARLEY III, THOMAS",
+      "associate_number": "205700",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "TEO, OTOLOSE",
+      "associate_number": "205940",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "SHORT, HAYLEE",
+      "associate_number": "206004",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "SEARLE, WILLIAM",
+      "associate_number": "206057",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "LOPEZ, JERSHON",
+      "associate_number": "206136",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MYERS, COLE",
+      "associate_number": "206178",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "GUYMON, KATHRYN",
+      "associate_number": "207037",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MAJERS, EMILIA",
+      "associate_number": "207127",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BEEBE, ASHLYN",
+      "associate_number": "208689",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "HERNANDEZ, JOSHUA",
+      "associate_number": "209023",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "HINOJOSA, VALERIE",
+      "associate_number": "209377",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "COOK, ELIJAH",
+      "associate_number": "210394",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "PIERCE, ELIZA",
+      "associate_number": "211378",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "KAY, RYLAN",
+      "associate_number": "211962",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "KEMP, LARS",
+      "associate_number": "212257",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "PAULSEN, MAX",
+      "associate_number": "212292",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ROLLER, LANDON",
+      "associate_number": "214088",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BODINE, WELLS",
+      "associate_number": "214371",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MOODY, NATHAN",
+      "associate_number": "215232",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ARSENAULT, KAYLEE",
+      "associate_number": "216495",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "AVERETT, SIMON",
+      "associate_number": "217119",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "JOHNSON, ELLE",
+      "associate_number": "217126",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MOCK, JOSEPH",
+      "associate_number": "217167",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "MORRIS, RAYGAN",
+      "associate_number": "217874",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "FERGUSON, LUKE",
+      "associate_number": "218544",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BETTS, RACHEL",
+      "associate_number": "218631",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "RINDLISBACHER, AMARA",
+      "associate_number": "218846",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BRANDON, HEZEKIAH",
+      "associate_number": "219496",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ERICKSON, BELLA",
+      "associate_number": "219690",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "QUISPE, JULIAN",
+      "associate_number": "221424",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ROTHAS, BRAYDEN",
+      "associate_number": "221481",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ALDRIDGE, KIMBERLY",
+      "associate_number": "221572",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "VARGAS, RILEY",
+      "associate_number": "221826",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ANDERSON, IRELAND",
+      "associate_number": "222084",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ZUNIGA, BAYLEE",
+      "associate_number": "222879",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "HEUGLY, HUNTER",
+      "associate_number": "224845",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "ANDRUS, MILLIE",
+      "associate_number": "225017",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "SANDERS, SAYLOR",
+      "associate_number": "",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "BRIGANTI, MIRIAM",
+      "associate_number": "225804",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "VILLOTA, JACKY",
+      "associate_number": "227944",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "GIRON, DRAKE",
+      "associate_number": "228042",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "PEARSON, BROCK",
+      "associate_number": "228590",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "AGUILAR, NAYRETH",
+      "associate_number": "228927",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "FOX, JESSICA",
+      "associate_number": "229236",
+      "associate_level": "",
+      "shifts": {}
+    },
+    {
+      "name": "LOHANI, AASHRAY",
+      "associate_number": "229545",
+      "associate_level": "",
+      "shifts": {}
+    }
+  ]
+}

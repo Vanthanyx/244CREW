@@ -37,10 +37,15 @@ tbody tr:nth-child(even) {
   margin: 0 auto;
   width: 10vw;
 }
+
 .logo-text {
   display: inline;
   margin: 0 auto;
   font-size: 2vw;
+}
+
+.highlight {
+  background-color: #fff8aa !important;
 }
 
 @media (max-width: 600px) {
