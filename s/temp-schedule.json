@@ -15,20 +15,6 @@
       }
     },
     {
-      "name": "EMILIA MA",
-      "associate_number": "207127",
-      "associate_level": "L4",
-      "shifts": {
-        "Monday": "4-12 W. Jordan",
-        "Tuesday": "4:30 PM - 7:30 PM",
-        "Wednesday": "5:00 PM - 8:00 PM",
-        "Thursday": "RO",
-        "Friday": "",
-        "Saturday": "5:00 PM - 2:15 AM",
-        "Sunday": "11:15 AM - 5:00 PM"
-      }
-    },
-    {
       "name": "RYLIE HE",
       "associate_number": "202176",
       "associate_level": "L5",
@@ -54,6 +40,48 @@
         "Friday": "5:00 PM - 2:15 AM",
         "Saturday": "RO",
         "Sunday": "7:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "name": "EMILIA MA",
+      "associate_number": "207127",
+      "associate_level": "L4",
+      "shifts": {
+        "Monday": "4-12 W. Jordan",
+        "Tuesday": "4:30 PM - 7:30 PM",
+        "Wednesday": "5:00 PM - 8:00 PM",
+        "Thursday": "RO",
+        "Friday": "",
+        "Saturday": "5:00 PM - 2:15 AM",
+        "Sunday": "11:15 AM - 5:00 PM"
+      }
+    },
+    {
+      "name": "COLE MY",
+      "associate_number": "207128",
+      "associate_level": "L4",
+      "shifts": {
+        "Monday": "",
+        "Tuesday": "4:30 PM - 7:30 PM",
+        "Wednesday": "5:00 PM - 8:00 PM",
+        "Thursday": "RO",
+        "Friday": "",
+        "Saturday": "8:00 AM - 5:00 PM",
+        "Sunday": "8:00 AM - 5:00 PM"
+      }
+    },
+    {
+      "name": "JERSHON LO",
+      "associate_number": "207129",
+      "associate_level": "L5",
+      "shifts": {
+        "Monday": "4-12 W. Jordan",
+        "Tuesday": "5:30 PM - 10:00 PM",
+        "Wednesday": "5:30 PM - 10:00 PM",
+        "Thursday": "RO",
+        "Friday": "",
+        "Saturday": "RO",
+        "Sunday": "2:30 PM - 10:30 PM"
       }
     },
     {

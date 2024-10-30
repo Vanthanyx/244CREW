@@ -1,7 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Nabla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat&display=swap");
 
 /* General Styles */
-* {
+
+html {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+th,
+tr {
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -10,6 +19,11 @@
 
 html {
   font-size: 12px;
+}
+
+body {
+  background-color: #060606;
+  color: white;
 }
 
 /* Table Styles */
@@ -21,18 +35,22 @@ table {
 
 th,
 td {
-  border: 2px solid #222;
+  border: 2px solid #020202;
   padding: 0.5em;
   text-align: center;
   cursor: pointer;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #333;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #ccc;
+  background-color: #222;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #111;
 }
 
 /* Logo Styles */
@@ -50,11 +68,11 @@ tbody tr:nth-child(even) {
 
 /* Highlight Styles */
 .highlight {
-  background-color: #ffe582 !important;
+  background-color: rgba(255, 229, 130, 0.5) !important;
 }
 
 .user-row {
-  background-color: #db8080 !important;
+  background-color: rgba(219, 128, 128, 0.5) !important;
 }
 
 /* Tooltip Styles */
@@ -112,7 +130,7 @@ tbody tr:nth-child(even) {
 /* Dynamic Div Styles */
 .dynamic-div {
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(17, 22, 78, 0.38);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 15px;
@@ -129,6 +147,7 @@ tbody tr:nth-child(even) {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 1vw;
   z-index: 9999;
 }
 
@@ -146,6 +165,22 @@ tbody tr:nth-child(even) {
   color: white;
   position: absolute;
   bottom: 10px;
+}
+
+.pulse-red {
+  animation: pulse-red 6s infinite;
+}
+
+@keyframes pulse-red {
+  0% {
+    background-color: #333;
+  }
+  50% {
+    background-color: #b60000;
+  }
+  100% {
+    background-color: #333;
+  }
 }
 
 /* Responsive Styles */

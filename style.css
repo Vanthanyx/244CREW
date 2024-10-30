@@ -9,6 +9,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #060606;
+  color: white;
 }
 
 .login-container {
@@ -29,14 +31,14 @@ body {
   text-align: center;
   border-radius: 15px;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
 }
 
 .login-box h1 {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
-  color: black;
+  color: white;
 }
 
 .textbox {
@@ -51,7 +53,7 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  color: black;
+  color: white;
   font-size: 16px;
   border-bottom: 2px solid #b60000; /* Match button border */
 }
@@ -79,7 +81,7 @@ body {
   width: 100%;
   background: none;
   border: 2px solid #b60000; /* Adjust as needed */
-  color: black;
+  color: white;
   padding: 5px;
   cursor: pointer;
   margin: 12px 0;
@@ -90,7 +92,7 @@ body {
 
 .btn:hover {
   background: #b60000;
-  color: white;
+  color: black;
 }
 
 .logo {
