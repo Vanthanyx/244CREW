@@ -26,9 +26,13 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const pickupCell = document.createElement("td");
       const pickupButton = document.createElement("button");
-      pickupButton.textContent = "Pickup";
+      pickupButton.textContent = "Request Pickup";
+      pickupButton.classList.add("pickup-btn");
       pickupButton.onclick = () =>
-        alert(`Shift picked up by ${atob(sessionStorage.getItem("USER"))}`);
+        JSAlert.alert(
+          `Text ${shift["associate-info"]} at ${shift["phone"]} to request the shift pickup.`,
+          `${atob(sessionStorage.getItem("USER"))}`
+        );
       pickupCell.appendChild(pickupButton);
 
       // Append cells to the row

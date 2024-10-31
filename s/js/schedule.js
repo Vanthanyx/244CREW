@@ -1,7 +1,7 @@
 const fetchSchedule = async () => {
   try {
     const response = await fetch(
-      "https://244crew.com/s/json/temp-schedule.json"
+      "https://https://raw.githubusercontent.com/Vanthanyx/244CREW/refs/heads/main/s/json/temp-schedule.json"
     );
     const data = await response.json();
 
