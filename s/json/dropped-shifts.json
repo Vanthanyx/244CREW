@@ -2,9 +2,27 @@
   "shifts": [
     {
       "schedule-location": "Sunday 1",
-      "associate-info": "L4 BROOKS DR",
-      "shift-time": "11:15 AM - 5:00 PM",
-      "phone": "(801)-833-8276"
+      "associate-name": "BROOKS DR",
+      "associate-number": "201449",
+      "shift-time": "11:15 AM - 5:00 PM"
+    },
+    {
+      "schedule-location": "Sunday 2",
+      "associate-name": "RYLIE HE",
+      "associate-number": "L5",
+      "shift-time": "9:00 AM - 5:00 PM"
+    },
+    {
+      "schedule-location": "Sunday 5",
+      "associate-name": "KATHRYN GU",
+      "associate-number": "L5",
+      "shift-time": "7:00 AM - 5:00 PM"
+    },
+    {
+      "schedule-location": "Sunday 6",
+      "associate-name": "EMILIA MA",
+      "associate-number": "L4",
+      "shift-time": "11:15 AM - 5:00 PM"
     }
   ]
 }
