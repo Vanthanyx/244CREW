@@ -1,8 +1,6 @@
 let scheduleData = null; // Declare a global variable to store the fetched data
 
-fetch(
-  "https://raw.githubusercontent.com/Vanthanyx/244CREW/refs/heads/main/s/json/temp-schedule.json"
-)
+fetch("https://244crew.com/s/json/temp-schedule.json")
   .then((response) => response.json())
   .then((data) => {
     scheduleData = data; // Assign data to the global variable
