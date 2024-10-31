@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Fetch the JSON data
     const response = await fetch(
-      "https://244crew.com/s/json/dropped-shifts.json"
+      "https://raw.githubusercontent.com/Vanthanyx/244CREW/refs/heads/main/s/json/dropped-shifts.json"
     );
     if (!response.ok) throw new Error("Failed to fetch shift data");
 
@@ -17,16 +17,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       // Create table cells for each data point
       const nameCell = document.createElement("td");
-      nameCell.textContent = `${shift["associate-name"]} (#${shift["associate-number"]})`;
+      nameCell.textContent = `${shift["associate-info"]}`;
 
       const shiftDayTimeCell = document.createElement("td");
-      shiftDayTimeCell.textContent = `${shift["schedule-location"]} - ${shift["shift-time"]}`;
+      const scheduleLocation = shift["schedule-location"];
+      const day = scheduleLocation.replace(/[0-9]/g, ""); // Remove numbers
+      shiftDayTimeCell.textContent = `${day.trim()} | ${shift["shift-time"]}`;
 
       const pickupCell = document.createElement("td");
       const pickupButton = document.createElement("button");
       pickupButton.textContent = "Pickup";
       pickupButton.onclick = () =>
-        alert(`Shift picked up by ${shift["associate-name"]}`);
+        alert(`Shift picked up by ${atob(sessionStorage.getItem("USER"))}`);
       pickupCell.appendChild(pickupButton);
 
       // Append cells to the row
