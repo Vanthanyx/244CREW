@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INO 244 Schedule</title>
+    <title>INO 244 Shift Manager</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'><text y='32' font-size='32'>🍔</text></svg>"
@@ -13,18 +13,25 @@
   </head>
   <body>
     <h1 class="logo-text">
-      <img class="logo" src="../assets/INO.png" />&nbsp;&nbsp;244 Dropped Shifts
+      <img class="logo" src="../assets/INO.png" />&nbsp;&nbsp;244 Shift Manager
       <div class="right-side">
         <a href="./index.html"><button id="drop-btn">Home</button></a>
       </div>
     </h1>
     <hr style="height: 2px; background-color: #b60000; border: none" />
     <hr style="height: 6px; background-color: #b60000; border: none" />
-    <table>
-      <th>Name & Associate Number</th>
-      <th>Shift Day & Time</th>
-      <th>Pickup</th>
-    </table>
+    <div class="flex">
+      <table style="width: 60%">
+        <th>Name & Associate Number</th>
+        <th>Shift Day & Time</th>
+        <th>Pickup</th>
+      </table>
+      <div class="user-shifts">
+        <h1>Your Shifts</h1>
+        <hr />
+        <p id="shift-container"></p>
+      </div>
+    </div>
     <script>
       if (window.innerWidth <= 800) {
         document.write(
@@ -40,7 +47,14 @@
           '<link rel="stylesheet" type="text/css" href="./css/web.css">'
         );
       }
+
+      JSAlert.alert(
+        "This page is still under development, nothing is real or actually works.",
+        "Under Development",
+        JSAlert.Icons.Warning
+      );
     </script>
-    <script src="./js/dropped.js"></script>
+    <script src="./js/manager.js"></script>
+    <script src="./js/div.js"></script>
   </body>
 </html>

@@ -19,7 +19,7 @@ td {
 .pickup-btn {
   background-color: #b60000;
   color: white;
-  padding: 2% 3%;
+  padding: 2% 2%;
   margin: 1% 0;
   border: none;
   cursor: pointer;
@@ -28,6 +28,32 @@ td {
 }
 
 .pickup-btn:hover {
+  background-color: white;
+  color: #b60000;
+}
+
+.flex {
+  display: flex;
+}
+
+.user-shifts {
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.shift-submit-btn {
+  background-color: #b60000;
+  color: white;
+  padding: 2% 2%;
+  margin: 2% 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 1s ease;
+}
+
+.shift-submit-btn:hover {
   background-color: white;
   color: #b60000;
 }

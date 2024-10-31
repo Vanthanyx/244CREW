@@ -63,13 +63,15 @@ function getUserShifts() {
   const rows = table.getElementsByTagName("tr");
 
   for (let i = 1; i < rows.length; i++) {
-    // Start from 1 to skip the header row
     const cells = rows[i].getElementsByTagName("td");
 
     if (cells.length > 0 && cells[0].textContent.includes(username)) {
-      return Array.from(cells)
+      const userShifts = Array.from(cells)
         .slice(1)
         .map((cell) => cell.textContent);
+
+      sessionStorage.setItem("USER_SHIFTS", JSON.stringify(userShifts)); // Store shifts
+      return userShifts;
     }
   }
   return [];
@@ -83,16 +85,3 @@ function saturdayMeeting() {
   }
 }
 //saturdayMeeting();
-
-const dateTimeDiv = document.createElement("div");
-dateTimeDiv.id = "dateTime";
-dateTimeDiv.style.position = "fixed";
-dateTimeDiv.style.bottom = "10px";
-dateTimeDiv.style.right = "10px";
-dateTimeDiv.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-dateTimeDiv.style.color = "white";
-dateTimeDiv.style.padding = "5px";
-dateTimeDiv.style.borderRadius = "5px";
-dateTimeDiv.style.fontFamily = '"JetBrains Mono", monospace';
-dateTimeDiv.textContent = "Updated 10/29 11:48PM";
-document.body.appendChild(dateTimeDiv);

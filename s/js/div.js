@@ -1,0 +1,12 @@
+const loginDiv = document.createElement("div");
+loginDiv.id = "dateTime";
+loginDiv.style.position = "fixed";
+loginDiv.style.bottom = "10px";
+loginDiv.style.right = "10px";
+loginDiv.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+loginDiv.style.color = "white";
+loginDiv.style.padding = "5px";
+loginDiv.style.borderRadius = "5px";
+loginDiv.style.fontFamily = '"JetBrains Mono", monospace';
+loginDiv.textContent = `User: ${atob(sessionStorage.getItem("USER"))}`;
+document.body.appendChild(loginDiv);

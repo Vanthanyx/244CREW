@@ -17,8 +17,9 @@
         >Current</span
       >|<span style="cursor: not-allowed">Next</span>)
       <div class="right-side">
-        <button id="drop-btn">Drop Shifts</button>
-        <a href="./dropped.html"><button id="req-btn">Request Hrs</button></a>
+        <a href="./manager.html">
+          <button id="drop-btn">Shift Manager</button></a
+        >
       </div>
     </h1>
     <hr style="height: 2px; background-color: #b60000; border: none" />
@@ -76,6 +77,10 @@
           window.location.replace("https://244crew.com/");
         }, 2500);
       }
+      window.onload = function () {
+        getUserShifts();
+      };
     </script>
+    <script src="./js/div.js"></script>
   </body>
 </html>
